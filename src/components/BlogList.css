@@ -1,0 +1,14 @@
+.blogList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.statusText {
+  font-size: 14px;
+  color: #555;
+}
+
+.statusText.error {
+  color: red;
+}

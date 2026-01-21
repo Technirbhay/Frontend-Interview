@@ -1,0 +1,24 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding: 24px;
+}
+
+@media (min-width: 768px) {
+  .homeContainer {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+.homeSidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.homeContent {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 24px;
+}

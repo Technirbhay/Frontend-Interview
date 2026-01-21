@@ -1,0 +1,47 @@
+.createBtn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.createBtn:hover {
+  background-color: #333;
+}
+
+.blogForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.formTextarea {
+  padding: 8px;
+  height: 120px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

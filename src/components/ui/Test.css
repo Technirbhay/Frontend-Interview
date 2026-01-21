@@ -1,0 +1,27 @@
+.openBtn {
+  background-color: black;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.openBtn:hover {
+  background-color: #333;
+}
+
+.dialogBox {
+  padding: 20px;
+}
+
+.dialogTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dialogText {
+  font-size: 14px;
+  color: #444;
+}
