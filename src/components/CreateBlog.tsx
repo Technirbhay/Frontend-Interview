@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { createBlog } from "../api/blogs";
-
+import "./CreateBlogModal.css";
 import {
   Dialog,
   DialogContent,
   DialogTrigger,
 } from "../components/ui/dialog";
 
-import "./CreateBlogModal.css";
+
 
 const CreateBlogModal = () => {
   const queryClient = useQueryClient();
